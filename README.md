@@ -2,6 +2,27 @@
 Scans a Nintendo Switch NAND dump and identifies its firmware version and whether exFAT is present based on the names of the .nca files in SYSTEM:/Contents/registered.
 
 ## Usage
+
+### Without Python. Running as exe file.
+
+You can get from Releases the latest release built as EXE file, valid for Windows Platform.
+Get from the file list the biskey_template.txt and fill it with your keys.
+If you still don't own Biskeys keep on reading this readme.
+
+Then run from command line:
+```
+FVI.exe [-b=/path/to/biskeyfile] <dumpfile>
+
+ biskeyfile must contain the following lines:
+   BIS Key 2 (crypt): <32-digit hex key>
+   BIS Key 2 (tweak): <32-digit hex key>
+  omit -b if System partition already decrypted (eg. dumped with HacDiskMount)
+
+ dumpfile must be NAND dump (eg. Hekate rawnand.bin dump) or System partition
+```
+
+### Using Python 
+
 Requires Python 3 with pycryptodome (pycrypto works too):
 ```
 pip install pycryptodome
