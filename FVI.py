@@ -11,6 +11,8 @@ from crypto import XTSN
 CLUSTER_SIZE = 0x4000
 
 SYSTEM_VERSION_TITLES = [ # NCA filenames for System Version Title
+    ['7.0.1', 'fce3b0ea366f9c95fe6498b69274b0e7.nca'],
+    ['7.0.0', 'c613bd9660478de69bc8d0e2e7ea9949.nca'],
     ['6.2.0', '6dfaaf1a3cebda6307aa770d9303d9b6.nca'],
     ['6.1.0', '1d21680af5a034d626693674faf81b02.nca'],
     ['6.0.1', '663e74e45ffc86fbbaeb98045feea315.nca'],
@@ -34,6 +36,8 @@ SYSTEM_VERSION_TITLES = [ # NCA filenames for System Version Title
 ]
 
 EXFAT_PACKAGEC_TITLES = { # NCA filenames for exFAT variant of Package C Titles
+    '7.0.1': 'c9e500edc7bb0fde52eab246028ef84c.nca',
+    '7.0.0': '58c731cdacb330868057e71327bd343e.nca',
     '6.2.0': '97cb7dc89421decc0340aec7abf8e33b.nca',
     '6.1.0': 'd5186022d6080577b13f7fd8bcba4dbb.nca',
     '6.0.1': 'd5186022d6080577b13f7fd8bcba4dbb.nca',
