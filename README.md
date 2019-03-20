@@ -6,7 +6,9 @@ Scans a Nintendo Switch NAND dump and identifies its firmware version and whethe
 ### Without Python. Running as exe file.
 
 You can get from Releases the latest release built as EXE file, valid for Windows Platform.
-Get from the file list the biskey_template.txt and fill it with your keys.
+
+Get from the file list the [biskey_template.txt](https://github.com/RetroGamer74/FVI/blob/master/biskey_template.txt) and fill it with your keys.
+
 If you still don't own Biskeys keep on reading this readme.
 
 Then run from command line:
